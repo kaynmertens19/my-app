@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
+import { ProductsPage } from "../pages/ProductsPage";
 
 
 
@@ -9,7 +10,7 @@ export function RoutesPaths(){
         <BrowserRouter>
         <Routes>
             <Route path="/" element={<HomePage/>}/>
-            <Routes
+            <Route path="/products" element={<ProductsPage/>}></Route>
         </Routes>
         </BrowserRouter>
     )

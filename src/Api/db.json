@@ -1,7 +1,9 @@
- {"spacecraft": [
+ {"Spacecraft": [
   {
-    "spacecraft_id": 1,
-    "spacecraft_name": "Ms",
+    "id": 1,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Calipso 03",
+    "price": 10000000,
     "manufacturer": "Skipfire",
     "launch_date": "7/31/1983",
     "mission_duration": 9.67,
@@ -9,11 +11,14 @@
     "payload_capacity": 934,
     "propellant_type": "solid",
     "thrust": 175020,
-    "orbit_type": "LEO"
+    "orbit_type": "LEO",
+    "quantity": 0
   },
   {
-    "spacecraft_id": 2,
-    "spacecraft_name": "Mrs",
+    "id": 2,
+    "img": "src/assets/themantis.jpg",
+    "name": "The mantis",
+    "price": 10000000,
     "manufacturer": "Realbridge",
     "launch_date": "3/20/1983",
     "mission_duration": 6.11,
@@ -24,8 +29,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 3,
-    "spacecraft_name": "Mr",
+    "id": 3,
+    "img": "src/assets/ThesunProject.jpg",
+    "name": "The Sun",
+    "price": 10000000,
     "manufacturer": "Mynte",
     "launch_date": "7/12/1989",
     "mission_duration": 5.32,
@@ -36,8 +43,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 4,
-    "spacecraft_name": "Mr",
+    "id": 4,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "The Moon",
+    "price": 10000000,
     "manufacturer": "Mydeo",
     "launch_date": "9/11/1959",
     "mission_duration": 4.27,
@@ -48,8 +57,10 @@
     "orbit_type": "LEO"
   },
   {
-    "spacecraft_id": 5,
-    "spacecraft_name": "Honorable",
+    "id": 5,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Honorable",
+    "price": 10000000,
     "manufacturer": "Aimbo",
     "launch_date": "3/29/2013",
     "mission_duration": 7.17,
@@ -60,8 +71,10 @@
     "orbit_type": "MEO"
   },
   {
-    "spacecraft_id": 6,
-    "spacecraft_name": "Ms",
+    "id": 6,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "GeoExtractor",
+    "price": 10000000,
     "manufacturer": "Realpoint",
     "launch_date": "5/6/1982",
     "mission_duration": 6.86,
@@ -72,8 +85,10 @@
     "orbit_type": "MEO"
   },
   {
-    "spacecraft_id": 7,
-    "spacecraft_name": "Ms",
+    "id": 7,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Yambee",
+    "price": 10000000,
     "manufacturer": "Yambee",
     "launch_date": "7/24/1962",
     "mission_duration": 6.51,
@@ -84,8 +99,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 8,
-    "spacecraft_name": "Mrs",
+    "id": 8,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Exotic",
+    "price": 10000000,
     "manufacturer": "Yambee",
     "launch_date": "3/29/1966",
     "mission_duration": 1.76,
@@ -96,8 +113,10 @@
     "orbit_type": "LEO"
   },
   {
-    "spacecraft_id": 9,
-    "spacecraft_name": "Honorable",
+    "id": 9,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Spear",
+    "price": 10000000,
     "manufacturer": "Wikibox",
     "launch_date": "8/17/1952",
     "mission_duration": 9.15,
@@ -108,8 +127,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 10,
-    "spacecraft_name": "Ms",
+    "id": 10,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Sword",
+    "price": 10000000,
     "manufacturer": "Leenti",
     "launch_date": "8/17/1982",
     "mission_duration": 5.11,
@@ -120,8 +141,10 @@
     "orbit_type": "MEO"
   },
   {
-    "spacecraft_id": 11,
-    "spacecraft_name": "Mrs",
+    "id": 11,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Shield",
+    "price": 10000000,
     "manufacturer": "Wikibox",
     "launch_date": "4/5/2003",
     "mission_duration": 6.9,
@@ -132,8 +155,10 @@
     "orbit_type": "MEO"
   },
   {
-    "spacecraft_id": 12,
-    "spacecraft_name": "Honorable",
+    "id": 12,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Support",
+    "price": 10000000,
     "manufacturer": "Blogtags",
     "launch_date": "11/8/2022",
     "mission_duration": 4.57,
@@ -144,8 +169,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 13,
-    "spacecraft_name": "Dr",
+    "id": 13,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Extractor",
+    "price": 10000000,
     "manufacturer": "JumpXS",
     "launch_date": "7/5/1957",
     "mission_duration": 1.23,
@@ -156,8 +183,10 @@
     "orbit_type": "LEO"
   },
   {
-    "spacecraft_id": 14,
-    "spacecraft_name": "Ms",
+    "id": 14,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Biologist",
+    "price": 10000000,
     "manufacturer": "Browsebug",
     "launch_date": "7/11/2016",
     "mission_duration": 2.45,
@@ -168,8 +197,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 15,
-    "spacecraft_name": "Dr",
+    "id": 15,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Daeneris",
+    "price": 10000000,
     "manufacturer": "Riffwire",
     "launch_date": "8/15/1958",
     "mission_duration": 7.47,
@@ -180,8 +211,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 16,
-    "spacecraft_name": "Honorable",
+    "id": 16,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Bread",
+    "price": 10000000,
     "manufacturer": "LiveZ",
     "launch_date": "10/10/2018",
     "mission_duration": 4.39,
@@ -192,8 +225,10 @@
     "orbit_type": "MEO"
   },
   {
-    "spacecraft_id": 17,
-    "spacecraft_name": "Dr",
+    "id": 17,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Project 5",
+    "price": 10000000,
     "manufacturer": "Photofeed",
     "launch_date": "10/19/1978",
     "mission_duration": 1.84,
@@ -204,8 +239,10 @@
     "orbit_type": "MEO"
   },
   {
-    "spacecraft_id": 18,
-    "spacecraft_name": "Dr",
+    "id": 18,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Reactivo",
+    "price": 10000000,
     "manufacturer": "Voonte",
     "launch_date": "6/20/2019",
     "mission_duration": 4.97,
@@ -216,8 +253,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 19,
-    "spacecraft_name": "Ms",
+    "id": 19,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Zoro",
+    "price": 10000000,
     "manufacturer": "Divanoodle",
     "launch_date": "10/23/1952",
     "mission_duration": 4.65,
@@ -228,8 +267,10 @@
     "orbit_type": "GEO"
   },
   {
-    "spacecraft_id": 20,
-    "spacecraft_name": "Ms",
+    "id": 20,
+    "img": "src/assets/Caleidoscope.jpg",
+    "name": "Hollow",
+    "price": 10000000,
     "manufacturer": "Yakidoo",
     "launch_date": "5/1/2003",
     "mission_duration": 5.31,

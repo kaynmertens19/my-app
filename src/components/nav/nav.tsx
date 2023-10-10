@@ -1,7 +1,9 @@
-import '../css/header.css'
-import astraliteLogo from '../assets/astraliteLogo.svg'
-import searchImg from '../assets/search.svg'
-import logInImg from '../assets/logInImg.svg'
+import '../../css/header.css'
+import astraliteLogo from '../../assets/svg/astraliteLogo.svg'
+import searchImg from '../../assets/svg/search.svg'
+import logInImg from '../../assets/svg/logInImg.svg'
+import { Link } from 'react-router-dom'
+import { UseShoppingCart } from '../../context/cartContext'
 
 
 
@@ -16,19 +18,19 @@ export function Nav() {
     }
 
 
+    const {openCart, closeCart, cartQuantity } = UseShoppingCart()
+
 
   return (
     
       <>
        <nav>
         <img className="logo" src={astraliteLogo} alt="logo astralite" />
-    <ul className='flex-row'>
-        <li>Inicio</li>
-        <li>Noticias</li>
-        <li>Recursos</li>
-        <li> Sobre nosotros</li>
-        <li>Transparencia</li>
-    </ul>
+
+        <ul className='ulLink'>
+          <li><Link className='Link' to="/products">Products</Link></li>
+          <li><Link className='Link' to="/">Home</Link></li>
+        </ul>
 
       <div onClick={openModalSesion } className="openModalSesion">
         <p className='LogIntext'>Inicia Sesion</p>
@@ -45,7 +47,12 @@ export function Nav() {
       </section>
       {/* End modal section */}
 
-      <button className="buttonSearch"><p className="searchText">Search</p><img className='searchImg' src={searchImg} alt="" /></button>
+      {cartQuantity > 0 &&( <button  className='roundedButton' onClick={openCart}>
+        
+          <div className='rounded-dot'>{cartQuantity}</div>
+       
+      </button>
+       )}
       </nav>
       </>
   )

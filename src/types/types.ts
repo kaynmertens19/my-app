@@ -1,6 +1,8 @@
 export interface Spacecraft  {
-    spacecraft_id:'string',
-    spacecraft_name:'string',
+    id:'number',
+    name:'string',
+    img: 'string',
+    price: 'number',
     manufacturer:'string',
     launch_date:'string',
     mission_duration:'number',
@@ -9,4 +11,5 @@ export interface Spacecraft  {
     propellant_type:'string',
     thrust:'number',
     orbit_type:'string',
+    quantity: 'number',
 }

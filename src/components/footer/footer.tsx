@@ -1,9 +1,9 @@
 
-import decoration from '../assets/infoDecoration.svg'
-import '../css/Footer.css'
-import logoI from '../assets/instagramLogo.png'
-import logoF from '../assets/FacebookLogo.png'
-import logoT from '../assets/TwitterLogo.png'
+import decoration from '../../assets/svg/infoDecoration.svg'
+import '../../css/Footer.css'
+import logoI from '../../assets/instagramLogo.png'
+import logoF from '../../assets/FacebookLogo.png'
+import logoT from '../../assets/TwitterLogo.png'
 export function Footer() {
 
   return (

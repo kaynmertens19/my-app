@@ -1,15 +1,17 @@
-import { ProductsData } from "../hooks/productHook";
 
-export function ProductsPage(){
-getProducts()
-  async  function getProducts(){
-    const response = await ProductsData
-    console.log(response)
+import { Footer } from '../components/footer/footer'
+import { Nav } from '../components/nav/nav'
+import { ProductsGrid } from '../components/productGrid/productsGrid'
 
 
+export function ProductsPage() {
 
-    return(
-        <h1>Hello!</h1>
-    )
-  }
+return (
+
+    <>
+      <Nav/>
+      <ProductsGrid/>
+      <Footer/>
+    </>
+  )
 }

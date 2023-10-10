@@ -1,0 +1,151 @@
+.container {
+    margin-top: 2em;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 60px 30px; 
+    grid-template-areas: 
+      "."
+      "."; 
+      color: white;
+  }
+
+  .cage{
+    position: relative;
+    left: 4.5em;
+        height: 28em;
+        width: 15em;
+        background-color: rgb(45, 47, 47);
+        background-size: 15em;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+        transition: 1s;
+        transform-origin: center;
+
+  }
+
+  .imgCage{
+        height: 20em;
+        width: 15em;
+        background-color: rgb(45, 47, 47);
+        background-size: 15em;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+        transition: 1s;
+        transform-origin: center;
+    max-width: 15em;
+    max-height: 20em;
+  }
+
+  .informationCage{
+        height: 8em;
+        width: 15em;
+        background-color: rgb(84, 85, 85);
+        background-size: 15em;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+        transition: 1s;
+        transform-origin: center;
+        display: flex;
+        flex-direction: column;
+  
+  }
+  .infoBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .ProductPrice{
+    font-size: 1.2em;
+  }
+
+  .buttonBox{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+    .ProductAdd{
+        width: 7em;
+        height: 3em;
+        background-color: rgba(199, 153, 118, 0.686);
+        box-shadow: 1px 1px 10px 4px rgb(132, 130, 130);
+        border: none;
+    }
+
+    .ProductSeeMore{
+        width: 7em;
+        height: 3em;
+        background-color: rgba(199, 153, 118, 0.686);
+        border: none;
+        box-shadow: 2px 2px 10px 4px rgb(132, 130, 130);
+    }
+
+    .tittleProductsPage{
+        color: white;
+        width: 9em;
+        margin-top: 1em;
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    .subtitleProductsPage{
+        color: white;
+        width: 18em;
+        font-size: 1.3em;
+        margin-bottom: 5em;
+        margin-left: 1em;
+    }
+
+    .imgSpaceship{
+      width: 15em;
+      height: 20em;
+    }
+
+    .flex-d{
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .flex-b{
+      display: flex;
+      flex-direction: row;
+      margin-top: -0.5em;
+      margin-bottom: 0.5em;
+      align-items: center;
+      justify-content: space-around;
+      width: 12em;
+    }
+
+    .buttonMinus{
+      width: 3em;
+      height: 3em;
+      background-color: rgba(199, 153, 118, 0.686);
+      box-shadow: 1px 1px 10px 4px rgb(132, 130, 130);
+      border: none;
+    }
+
+    .buttonPlus{
+      width: 3em;
+      height: 3em;
+      background-color: rgba(199, 153, 118, 0.686);
+      box-shadow: 1px 1px 10px 4px rgb(132, 130, 130);
+      border: none;
+    }
+
+    .cartText{
+      font-size: 1.5em;
+    }
+
+    .Remove{
+      width: 10em;
+      height: 2em;
+      background-color: rgba(199, 118, 118, 0.686);
+      box-shadow: 1px 1px 10px 4px rgb(132, 130, 130);
+      border: none;
+      margin-left: 2em;
+    }
