@@ -28,15 +28,16 @@ export const ProductContextProvider:FC<PropsWithChildren> = ({children})=>{
         }
         getData()
 
+        
 
         
     }, [])
 
-
+    console.log("pan",products)
     
 
     return(
-        <ProductContext.Provider value={{products, setProducts, cart, setCart}}>
+        <ProductContext.Provider value={{products, setProducts}}>
         {children}
         </ProductContext.Provider>
     )

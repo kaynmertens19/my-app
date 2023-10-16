@@ -25,11 +25,6 @@ export function Footer() {
             </div>
             <div className="blackScreen"></div>
           </div>
-          <div className="RSS">
-            <a href=""><img className="ImgRSS" src={logoI} alt="instagramLogo" /></a>
-            <a href=""><img className="ImgRSS" src={logoF} alt="FacebookLogo" /></a>
-            <a href=""><img className="ImgRSS" src={logoT} alt="TwitterLogo" /></a>
-          </div>
         </div>
       </footer>
     </>

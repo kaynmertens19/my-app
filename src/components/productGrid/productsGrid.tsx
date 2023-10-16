@@ -7,9 +7,7 @@ import { UseShoppingCart } from '../../context/cartContext'
 
 
 export function ProductsGrid() {
-  const { products, setProducts, cart, setCart } = useContext(ProductContext)
-
-  console.log(products)
+  const { products } = useContext(ProductContext)
 
   return (
     <>
@@ -23,11 +21,10 @@ export function ProductsGrid() {
       <div className="container">
 
         {products && products.map(({id, img, price, name}: Spacecraft) => {
-          console.log(id)
           const {getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart} = UseShoppingCart()
           const quantity = getItemQuantity(id)
           return (
-            <div className="cage">
+            <div className="cage" key={id}>
               <div className="imgCage">
                 <img className="imgSpaceship" src={img} alt="hey" />
               </div>
@@ -42,15 +39,15 @@ export function ProductsGrid() {
                   {quantity === 0 ? (
                     <button className='ProductAdd' onClick={() => increaseCartQuantity(id)}>+ Add to cart</button>
                   ) : (
-                    <div className="flex-d">
-                      <div className='flex-b'>
+                    <div className="flex-di">
+                      <div className='flex-bi'>
                       <button className='buttonMinus'  onClick={() => decreaseCartQuantity(id)}>-</button>
                       <div>
-                     <p className='cartText'><span>{quantity}</span> in cart</p> 
+                     <p className='cartText'><span>{quantity}</span></p> 
                       </div>
                       <button className='buttonPlus'  onClick={() => increaseCartQuantity(id)}>+</button>
                       </div>
-                      <div className="flex-d">
+                      <div className="flex-di">
                         <button className='Remove'  onClick={() => removeFromCart(id)}>Remove</button>
                       </div>
                     </div>

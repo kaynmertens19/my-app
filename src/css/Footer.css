@@ -1,3 +1,5 @@
+@media (max-width: 429px){
+
 .FooterInfo{
     display: flex;
     flex-direction: row;
@@ -46,4 +48,53 @@ margin-left: 2em;
     height: 14vh;
     position: absolute;
     top: -5em;
+}
+
+}
+
+
+@media  (min-width: 768px){
+
+.FooterInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    margin-left: 2.5em;
+    width: 20em;
+    height: 2.4em;
+    background-color: #292932 ;
+    color: white;
+    position: relative;
+    left: 56em;
+}
+
+.footer{
+    margin-top: 3em;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../assets/moonCard.png);
+    background-repeat: no-repeat;
+    background-position:20em 15em;
+    background-size: 100em;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50em;
+    background-color: black;
+    height: 20em;
+}
+
+
+.blackScreen{
+    background-color: rgba(0, 0, 0, 0.503);
+    width: 100vw;
+    height: 14vh;
+    position: absolute;
+    top: -5em;
+}
+
 }

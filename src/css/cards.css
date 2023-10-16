@@ -1,3 +1,5 @@
+@media (max-width: 420px){
+
 .cardsSection{
  display: flex;
  justify-content: center;
@@ -132,3 +134,145 @@ width: fit-content;
 
 
 
+
+}
+
+@media  (min-width: 768px){
+    
+
+
+.cardsSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12em;
+   }
+   
+   .cardCont{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin-top: 2em;
+   }
+   
+   .card1{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/infinity.png");
+       background-size: 15em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+   }   
+   
+   .card1:hover{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/Caleidoscope.jpg");
+       background-size: 16em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+       transform: rotateY(180deg);
+   }
+   
+   .card2{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/theSun.png");
+       background-size: 15em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+   }   
+   
+   .card2:hover{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/Themantis.jpg");
+       background-size: 16em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+       transform: rotateY(180deg);
+   }
+   
+   .cardInfo{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       margin-top: 2em;
+       width: 10em;
+       height: 2.4em;
+       background-color: #292932 ;
+       color: white;
+   }
+   
+   .card3{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/theMoon.png");
+       background-size: 15em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+   }   
+   
+   .card3:hover{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/ThesunProject.jpg");
+       background-size: 16em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+       transform: rotateY(180deg);
+   }
+   
+   .card4{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/theStars.png");
+       background-size: 15em;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+   }   
+   
+   .card4:hover{
+       height: 26.5em;
+       width: 15em;
+       background-color: azure;
+       background-image: url("../assets/project0635.jpg");
+       background-size: 20em;
+       background-position: -40px;
+       background-repeat: no-repeat;
+       box-shadow: 1px 1px 10px 1px rgb(132, 130, 130);
+       transition: 1s;
+       transform-origin: center;
+       transform: rotateY(180deg);
+   }
+   
+   .cardDecoration{
+   margin-right: 1em;
+   width: fit-content;
+   }
+   
+   
+}

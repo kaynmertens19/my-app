@@ -2,13 +2,12 @@ import {
   createContext,
   useState,
   useContext,
-  ReactNode,
 } from 'react'
 import { ShopingCart } from '../components/ShopingCart.tsx/ShopingCart'
 
 
 type ShopingCartProviderProps = {
-  children: ReactNode
+  children: React.ReactNode
 }
 
 type ShopingContextCart = {

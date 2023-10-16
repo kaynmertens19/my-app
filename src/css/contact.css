@@ -1,3 +1,6 @@
+@media (max-width: 429px){
+
+
 .ContactSection{
     display: flex;
     flex-direction: column;
@@ -29,12 +32,14 @@
 }
 
 .TextAreaForm{
-    width: 20em;
+    width: 18em;
     font-size: 1.2em;
     padding-left: 0.5em;
     background-color: rgb(31, 30, 30);
     border: 1px solid rgb(51, 51, 51);
     color: white;
+    position: relative;
+    right: 1em;
 }
 
 
@@ -48,3 +53,59 @@
         border: 1px solid rgb(51, 51, 51);
         color: white;
     }
+
+}
+
+@media  (min-width: 768px){
+.ContactSection{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/contactBackground.png);
+    background-size: 75em;
+    background-position: 31em 10em;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.FormContactDiv{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 12em;
+    left:50em;
+}
+
+.TextForm{
+    width: 20em;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    background-color: rgb(31, 30, 30);
+    border: 1px solid rgb(51, 51, 51);
+    color: white;
+}
+
+.TextAreaForm{
+    width: 25em;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    background-color: rgb(31, 30, 30);
+    border: 1px solid rgb(51, 51, 51);
+    color: white;
+}
+
+
+    .SubmitForm{
+        width: 20em;
+        font-size: 1.5em;
+        padding-left: 0.5em;
+        margin-left: 2.5em;
+        margin-top: 1em;
+        background-color: rgb(31, 30, 30);
+        border: 1px solid rgb(51, 51, 51);
+        color: white;
+    }
+
+}
